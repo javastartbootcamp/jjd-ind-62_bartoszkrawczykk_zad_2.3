@@ -8,21 +8,20 @@ public class Main {
         mojito.price = 13.0;
         mojito.alcohol = true;
 
-        Drink mojito1 = new Drink();
-        mojito1.ingredient = "woda\n";
-        mojito1.capacity = 70;
+        Ingredient ingredient1 = new Ingredient();
+        ingredient1.name = "woda\n";
+        ingredient1.capacity = 70;
 
-        Drink mojito2 = new Drink();
-        mojito2.ingredient = "sok cytrynowy\n";
-        mojito2.capacity = 70;
+        Ingredient ingredient2 = new Ingredient();
+        ingredient2.name = "sok cytrynowy\n";
+        ingredient2.capacity = 70;
 
-        Drink mojito3 = new Drink();
-        mojito3.ingredient = "wódka";
-        mojito3.capacity = 70;
+        Ingredient ingredient3 = new Ingredient();
+        ingredient3.name = "wódka";
+        ingredient3.capacity = 70;
 
-
-        String fullIngredient = (mojito1.ingredient + mojito2.ingredient + mojito3.ingredient);
-        int fullcapacity = (mojito1.capacity + mojito2.capacity + mojito3.capacity);
+        String fullIngredient = (ingredient1.name + ingredient2.name + ingredient3.name);
+        int fullcapacity = (ingredient1.capacity + ingredient2.capacity + ingredient3.capacity);
 
         System.out.printf("Drink: %s%n", mojito.name);
         System.out.printf("Cena: %.1fzł%n", mojito.price);

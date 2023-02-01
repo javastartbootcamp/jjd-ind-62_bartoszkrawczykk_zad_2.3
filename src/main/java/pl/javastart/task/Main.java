@@ -21,12 +21,12 @@ public class Main {
         mojito.ingredient3.capacity = 70;
 
         String fullIngredient = (mojito.ingredient1.name + mojito.ingredient2.name + mojito.ingredient3.name);
-        int fullcapacity = (mojito.ingredient1.capacity + mojito.ingredient2.capacity + mojito.ingredient3.capacity);
+        int fullCapacity = (mojito.ingredient1.capacity + mojito.ingredient2.capacity + mojito.ingredient3.capacity);
 
         System.out.printf("Drink: %s%n", mojito.name);
         System.out.printf("Cena: %.1fzł%n", mojito.price);
         System.out.printf("Czy zawiera alkohol? %b%n", mojito.alcohol);
         System.out.printf("Składniki:%n%s%n", fullIngredient);
-        System.out.printf("Pojemność: %dml", fullcapacity);
+        System.out.printf("Pojemność: %dml", fullCapacity);
     }
 }
